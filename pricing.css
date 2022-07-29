@@ -1,0 +1,126 @@
+/*Styling for Pricing Plan*/
+
+body{
+	font-family: "Comic Sans MS", cursive;
+	background: rgb(95,156,150);
+}
+
+.heading{
+    display: inline-block;
+    color: #333;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    padding-top: 8rem;
+    font-size: 4rem;
+	text-align: center;
+    border-bottom: .2rem solid var(--orange);
+}
+.main{
+	display: flex;
+	flex-direction: column;
+}
+.card{
+	margin-top: 20px;
+	background: #fff;
+	width: 330px;
+	height: auto;
+	text-align: center;
+	float: left;
+	margin-left: 90px;
+	border-radius: 10px;
+	transition: .5s ease-in-out;
+}
+
+.card:hover{
+	cursor: pointer;
+	box-shadow: 0px 3px 46px -2px rgba(0,0,0,0.61);
+}
+
+h2{
+	font-weight: bold;
+	font-size: 33px;
+	margin-top: 38px;
+}
+
+del{
+	color: #9c9c9c;
+}
+
+.save{
+	margin-left: 10px;
+	background-color: #2bbdaf;
+	outline: none;
+	color: white;
+	border: none;
+	height: 33px;
+	width: 100px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+h1{
+	font-weight: bold;
+	margin-bottom: 26px;
+	font-size: 40px;
+}
+
+p{
+	font-family: sans-serif;
+	text-align: left;
+	margin-left: 44px;
+	font-size: 17px;
+}
+
+.fa-check{
+	margin-right: 5px;
+	color: #2bbdaf;
+}
+
+.btn{
+	height: 60px;
+	width: 180px;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	font-size: 19px;
+	font-weight: normal;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+
+.btn1{
+	background-color: #2bbdaf;
+}
+.btn1:hover{
+	background-color: #098074;
+}
+
+.btn2{
+	background-color: #f0a816;
+}
+.btn2:hover{
+	background-color: #c48710;
+}
+
+.btn3{
+	background-color: #2bbdaf;
+}
+.btn3:hover{
+	background-color: #098074;
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	
+	align-content: center;
+}
+
+.plan__spectial-text{
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #333;
+	background: #2bbdaf;
+	box-shadow: #9c9c9c;
+	font-size: 20px;
+}
